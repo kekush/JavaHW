@@ -6,10 +6,7 @@ import org.example.HW3.Model.Products1;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Дан массив записей: наименование товара, цена, сорт.
- * Найти наибольшую цену товаров 1го или 2го сорта среди товаров, название которых содержит «высший».
- */
+
 public class Task1 {
     public static void main(String[] args) {
         Products1 product1 = new Products1("яблоко высший сорт", 100, 1);

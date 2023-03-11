@@ -5,10 +5,7 @@ import org.example.HW3.Model.Products2;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Сведения о товаре состоят из наименования, страны-производителя, веса, цены, сорта.
- * Получить наименования товаров заданного сорта с наименьшей ценой.
- */
+
 public class Task2 {
     public static void main(String[] args) {
         Products2 prod1 = new Products2("банан", "Эквадор", 115.6, 99, 2);
@@ -28,8 +25,7 @@ public class Task2 {
 
         int searchSort = 3;
         int minPrice = 0;
-        int count = 0;      // лучше использовать логическую переменную
-//        allProd.indexOf(getSort==2)
+        int count = 0;     
         for (Products2 prod : allProd) {
             if (prod.getSort() == searchSort) {
                 if (count < 1) {

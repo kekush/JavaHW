@@ -6,9 +6,9 @@ import java.util.Set;
 
 public class Methods {
     public static Set<Integer> check(Map<Integer, Notebook> notes, Map<String, String> search) {
-        Set<Integer> searchSet = new HashSet<>(notes.keySet());           // изначально добавляем все id
+        Set<Integer> searchSet = new HashSet<>(notes.keySet());        
         for (String elem : search.keySet()) {
-            Set<Integer> temp = new HashSet<>();        // множество поиска по отдельным параметрам
+            Set<Integer> temp = new HashSet<>();        
             switch (elem) {
                 case "ram":
                     int num1 = Integer.parseInt(search.get(elem));
